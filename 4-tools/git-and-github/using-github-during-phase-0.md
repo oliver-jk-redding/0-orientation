@@ -171,8 +171,9 @@ git commit -m "Add sample text"
 Well, that didn't work as expected! This is because git wants to know who we are for the records. This is a setting you'll only need to set once (unless you back up to an earlier snapshot of the VM or re-download it). But it's easy! The error message tells you exactly what to do. So we can simply copy and paste, making the appropriate changes. (Remember that copying from the terminal in Linux uses `Control-SHIFT-c`, and pasting `Control-SHIFT-v`.)
 
 ```sh
-git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global credential.helper store
 ```
 
 <figure>
