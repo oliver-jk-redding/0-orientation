@@ -32,3 +32,4 @@ We recommend you be familiar with these tools/technologies
 Important information including policies, contact lists, learning strategies etc.
 
 1. [Important course information](/9-information)
+Hi there. These are the changes of oliver-jk-redding
